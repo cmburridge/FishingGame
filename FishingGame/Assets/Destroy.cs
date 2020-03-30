@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Destroy : MonoBehaviour
 {
 	
-	
+
 	void Update ()
 	{
 		if (Input.GetButtonDown("Fire2"))
@@ -18,4 +19,6 @@ public class Destroy : MonoBehaviour
 	{
 		Destroy(this.gameObject);
 	}
+	
+	
 }
