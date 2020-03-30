@@ -9,8 +9,10 @@
         <e p="Aim.cs" t="Include" />
         <e p="Casting.cs" t="Include" />
         <e p="Destroy.cs" t="Include" />
+        <e p="FishingLine.cs" t="Include" />
         <e p="Movement.cs" t="Include" />
         <e p="TriggerEvents.cs" t="Include" />
+        <e p="Wander.cs" t="Include" />
       </e>
       <e p="FishingGame.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
