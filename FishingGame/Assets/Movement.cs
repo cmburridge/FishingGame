@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class Movement : MonoBehaviour
@@ -12,7 +13,7 @@ public class Movement : MonoBehaviour
 	public Animator animator;
 	
 	private Vector2 movement;
-
+	
 	private void Update()
 	{
 		movement.x = Input.GetAxisRaw("Horizontal");
@@ -21,10 +22,22 @@ public class Movement : MonoBehaviour
 		animator.SetFloat("Horizontal", movement.x);
 		animator.SetFloat("Vertical", movement.y);
 		animator.SetFloat("Speed", movement.sqrMagnitude);
+
+		if (Input.GetButtonDown("Fire1"))
+		{
+			rb.constraints = RigidbodyConstraints2D.FreezeAll;
+		}
+		if (Input.GetButtonDown("Fire2"))
+		{
+			rb.constraints = 0;
+		}
+		
+
 	}
 
 	private void FixedUpdate()
 	{
 		rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+		
 	}
 }

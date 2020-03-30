@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\cmbur\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -6,7 +6,11 @@
     <e p="C:\Users\cmbur\Desktop\GunDuo\FishingGame\FishingGame" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Aim.cs" t="Include" />
+        <e p="Casting.cs" t="Include" />
+        <e p="Destroy.cs" t="Include" />
         <e p="Movement.cs" t="Include" />
+        <e p="TriggerEvents.cs" t="Include" />
       </e>
       <e p="FishingGame.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
