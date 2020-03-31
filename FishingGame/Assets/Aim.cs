@@ -6,17 +6,20 @@ using UnityEngine;
 public class Aim : MonoBehaviour {
 
 	public float moveSpeed = 5f;
-	
-	
+
+	public Transform otherTransform;
 	public Rigidbody2D rod;
 	public Camera cam;
 	private Vector2 mousePos;
 	private Vector2 movement;
-	
-	
+
+	private void Start()
+	{
+		otherTransform = GameObject.Find("Boat").transform;
+	}
+
 	void Update () {
-		movement.x = Input.GetAxisRaw("Horizontal");
-		movement.y = Input.GetAxisRaw("Vertical");
+		transform.position = new Vector3(otherTransform.position.x, otherTransform.position.y, otherTransform.position.z);
 		mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 		
 		if (Input.GetButtonDown("Fire1"))

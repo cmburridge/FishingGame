@@ -13,6 +13,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Hud.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RandomSpawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Wander.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Casting.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Aim.cs" root0="FORCE_HIGHLIGHTING" />
@@ -24,16 +25,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Particle.cs" />
-        <option value="$PROJECT_DIR$/Assets/Aim.cs" />
-        <option value="$PROJECT_DIR$/Assets/Movement.cs" />
         <option value="$PROJECT_DIR$/Assets/WanderAi.cs" />
         <option value="$PROJECT_DIR$/Assets/Wander.cs" />
         <option value="$PROJECT_DIR$/Assets/FishingLine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Casting.cs" />
         <option value="$PROJECT_DIR$/Assets/Hud.cs" />
         <option value="$PROJECT_DIR$/Assets/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Destroy.cs" />
         <option value="$PROJECT_DIR$/Assets/ScoreSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/IgnoreCol.cs" />
+        <option value="$PROJECT_DIR$/Assets/Aim.cs" />
+        <option value="$PROJECT_DIR$/Assets/Movement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Casting.cs" />
+        <option value="$PROJECT_DIR$/Assets/RandomSpawn.cs" />
       </list>
     </option>
   </component>
@@ -86,7 +89,8 @@
       <workItem from="1585538667587" duration="3174000" />
       <workItem from="1585544144910" duration="13488000" />
       <workItem from="1585559604572" duration="5863000" />
-      <workItem from="1585592133998" duration="1949000" />
+      <workItem from="1585592133998" duration="2571000" />
+      <workItem from="1585625856483" duration="4176000" />
     </task>
     <servers />
   </component>

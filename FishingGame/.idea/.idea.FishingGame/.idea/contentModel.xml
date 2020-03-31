@@ -16,6 +16,7 @@
         <e p="Destroy.cs" t="Include" />
         <e p="Hud.cs" t="Include" />
         <e p="Movement.cs" t="Include" />
+        <e p="RandomSpawn.cs" t="Include" />
         <e p="ScoreSystem.cs" t="Include" />
         <e p="Wander.cs" t="Include" />
       </e>
