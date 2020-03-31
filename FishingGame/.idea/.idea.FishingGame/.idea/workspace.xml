@@ -13,12 +13,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Hud.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RandomSpawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Wander.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Casting.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Aim.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Destroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Movement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LevelGeneration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ScoreSystem.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -37,6 +37,8 @@
         <option value="$PROJECT_DIR$/Assets/Movement.cs" />
         <option value="$PROJECT_DIR$/Assets/Casting.cs" />
         <option value="$PROJECT_DIR$/Assets/RandomSpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/RopeScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/LevelGeneration.cs" />
       </list>
     </option>
   </component>
@@ -90,7 +92,8 @@
       <workItem from="1585544144910" duration="13488000" />
       <workItem from="1585559604572" duration="5863000" />
       <workItem from="1585592133998" duration="2571000" />
-      <workItem from="1585625856483" duration="4176000" />
+      <workItem from="1585625856483" duration="4791000" />
+      <workItem from="1585678128961" duration="4512000" />
     </task>
     <servers />
   </component>
