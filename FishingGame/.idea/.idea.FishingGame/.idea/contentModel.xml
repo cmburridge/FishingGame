@@ -18,6 +18,7 @@
         <e p="LevelGeneration.cs" t="Include" />
         <e p="Movement.cs" t="Include" />
         <e p="ScoreSystem.cs" t="Include" />
+        <e p="Triggers.cs" t="Include" />
         <e p="Wander.cs" t="Include" />
       </e>
       <e p="FishingGame.sln" t="IncludeFlat" />
