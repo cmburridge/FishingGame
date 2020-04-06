@@ -8,7 +8,7 @@ public class Movement : MonoBehaviour
  
     public float moveSpeed = 5f;
 
-    public float boostAmount = 0f; 
+    
     public Rigidbody2D rb; 
     public Animator animator; 
 	 
@@ -35,18 +35,6 @@ public class Movement : MonoBehaviour
             rb.constraints = 0;
         }
 
-        if (boostAmount != 0)
-        {
-            return;
-        }
-        else
-        {
-           if (Input.GetKey(KeyCode.F))
-           {
-               moveSpeed ++;
-           } 
-        }
-        
     }
     
 

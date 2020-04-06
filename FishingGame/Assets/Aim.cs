@@ -11,7 +11,7 @@ public class Aim : MonoBehaviour {
 	public Rigidbody2D rod;
 	public Camera cam;
 	private Vector2 mousePos;
-	private Vector2 movement;
+	private Vector2 move;
 
 	private void Start()
 	{
@@ -36,7 +36,7 @@ public class Aim : MonoBehaviour {
 
 	private void FixedUpdate()
 	{
-		rod.MovePosition(rod.position + movement * moveSpeed * Time.fixedDeltaTime);
+		rod.MovePosition(rod.position + move * moveSpeed * Time.fixedDeltaTime);
 		Vector2 lookDir = mousePos - rod.position;
 		float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg -45f;
 		rod.rotation = angle;

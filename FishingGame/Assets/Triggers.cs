@@ -7,14 +7,13 @@ using UnityEngine.Events;
 public class Triggers : MonoBehaviour
 {
 
-	public UnityEvent Event;
+	
 
-	void OnTriggerEnter(Collider collider)
+	private void OnTriggerEnter2D(Collider2D other)
 	{
-		Event.Invoke();
+		if (other.tag == "Player")
+		{
+			Destroy(gameObject);
+		}
 	}
-
-	
-
-	
 }
