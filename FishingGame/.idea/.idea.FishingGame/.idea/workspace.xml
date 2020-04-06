@@ -39,8 +39,8 @@
         <option value="$PROJECT_DIR$/Assets/RopeScript.cs" />
         <option value="$PROJECT_DIR$/Assets/LevelGeneration.cs" />
         <option value="$PROJECT_DIR$/Assets/Aim.cs" />
-        <option value="$PROJECT_DIR$/Assets/Triggers.cs" />
         <option value="$PROJECT_DIR$/Assets/Movement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Triggers.cs" />
       </list>
     </option>
   </component>
@@ -98,6 +98,7 @@
       <workItem from="1585678128961" duration="5115000" />
       <workItem from="1586053017729" duration="4164000" />
       <workItem from="1586196265201" duration="3347000" />
+      <workItem from="1586207863309" duration="1580000" />
     </task>
     <servers />
   </component>
