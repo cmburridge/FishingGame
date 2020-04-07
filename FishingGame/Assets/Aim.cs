@@ -22,10 +22,6 @@ public class Aim : MonoBehaviour {
 		transform.position = new Vector3(otherTransform.position.x, otherTransform.position.y, otherTransform.position.z);
 		mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 		
-		if (Input.GetButtonDown("Fire1"))
-		{
-			rod.constraints = RigidbodyConstraints2D.FreezeAll;
-		}
 
 		if (Input.GetButtonDown("Fire2"))
 		{
