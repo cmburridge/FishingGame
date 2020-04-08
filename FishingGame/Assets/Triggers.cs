@@ -7,13 +7,19 @@ using Object = UnityEngine.Object;
 using UnityEngine.SceneManagement;
 public class Triggers : MonoBehaviour
 {
-
+	private void Update()
+	{
+		if (Input.GetKeyDown(KeyCode.Escape))
+		{
+			SceneManager.LoadScene(0);
+		}
+	}
 
 	private void OnTriggerEnter2D(Collider2D lure)
 	{
 		if (lure.tag == "Player")
 		{
-			SceneManager.LoadScene(1);
+			SceneManager.LoadScene(2);
 		}
 	}
 

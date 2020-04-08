@@ -43,8 +43,8 @@
         <option value="$PROJECT_DIR$/Assets/Movement.cs" />
         <option value="$PROJECT_DIR$/Assets/Aim.cs" />
         <option value="$PROJECT_DIR$/Assets/RandomFish.cs" />
-        <option value="$PROJECT_DIR$/Assets/Triggers.cs" />
         <option value="$PROJECT_DIR$/Assets/ReturnButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Triggers.cs" />
       </list>
     </option>
   </component>
@@ -106,6 +106,7 @@
       <workItem from="1586233551903" duration="144000" />
       <workItem from="1586235832740" duration="171000" />
       <workItem from="1586321887860" duration="3242000" />
+      <workItem from="1586374761028" duration="876000" />
     </task>
     <servers />
   </component>

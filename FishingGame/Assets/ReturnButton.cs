@@ -6,6 +6,11 @@ public class ReturnButton : MonoBehaviour {
 
 	public void ReturnMenu()
 	{
-		SceneManager.LoadScene(0);
+		SceneManager.LoadScene(1);
+	}
+
+	public void StartGame()
+	{
+		SceneManager.LoadScene(1);
 	}
 }
