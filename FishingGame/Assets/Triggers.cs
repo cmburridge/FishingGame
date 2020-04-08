@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using Object = UnityEngine.Object;
-
+using UnityEngine.SceneManagement;
 public class Triggers : MonoBehaviour
 {
 
@@ -13,7 +13,7 @@ public class Triggers : MonoBehaviour
 	{
 		if (lure.tag == "Player")
 		{
-			Destroy(gameObject);
+			SceneManager.LoadScene(1);
 		}
 	}
 

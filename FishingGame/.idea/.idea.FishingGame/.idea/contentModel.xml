@@ -49,6 +49,8 @@
         </e>
         <e p="LevelGeneration.cs" t="Include" />
         <e p="Movement.cs" t="Include" />
+        <e p="RandomFish.cs" t="Include" />
+        <e p="ReturnButton.cs" t="Include" />
         <e p="ScoreSystem.cs" t="Include" />
         <e p="Triggers.cs" t="Include" />
         <e p="Wander.cs" t="Include" />
