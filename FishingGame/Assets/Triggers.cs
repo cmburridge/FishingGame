@@ -21,7 +21,7 @@ public class Triggers : MonoBehaviour
 	IEnumerator CatchingCoroutine()
 		{
 			Instantiate(splashScreen);
-			yield return new WaitForSeconds(1f);
+			yield return new WaitForSeconds(1.5f);
 			SceneManager.LoadScene(2);
 		}
 	void OnTriggerEnter2D(Collider2D lure)

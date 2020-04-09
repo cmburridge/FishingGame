@@ -13,4 +13,10 @@ public class ReturnButton : MonoBehaviour {
 	{
 		SceneManager.LoadScene(1);
 	}
+
+	public void doExitButton()
+	{
+		Debug.Log("Quit");
+		Application.Quit();
+	}
 }
