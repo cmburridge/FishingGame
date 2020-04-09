@@ -6,7 +6,7 @@ using UnityEngine.SocialPlatforms;
 
 public class Casting : MonoBehaviour
 {
-
+	public Transform boat;
 	public Transform linePoint;
 	public GameObject bobberPrefab;
 	public float numBobbers = 0f;
@@ -38,7 +38,7 @@ public class Casting : MonoBehaviour
 
 	void Cast()
 	{
-		GameObject bobber = Instantiate(bobberPrefab, linePoint.position, linePoint.rotation);
+		GameObject bobber = Instantiate(bobberPrefab, linePoint.position, boat.rotation);
 		Rigidbody2D rb = bobber.GetComponent<Rigidbody2D>();
 		rb.AddForce(linePoint.up * castSpeed, ForceMode2D.Impulse);
 		numBobbers ++;

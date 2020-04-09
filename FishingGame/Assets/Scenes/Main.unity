@@ -471,19 +471,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4933602497363954, guid: d79140d23a9811c47835812d50f7aa64, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4933602497363954, guid: d79140d23a9811c47835812d50f7aa64, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4933602497363954, guid: d79140d23a9811c47835812d50f7aa64, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.004116241
       objectReference: {fileID: 0}
     - target: {fileID: 4933602497363954, guid: d79140d23a9811c47835812d50f7aa64, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9999916
       objectReference: {fileID: 0}
     - target: {fileID: 4933602497363954, guid: d79140d23a9811c47835812d50f7aa64, type: 2}
       propertyPath: m_RootOrder
@@ -502,7 +502,7 @@ Prefab:
     - target: {fileID: 50487502440168920, guid: d79140d23a9811c47835812d50f7aa64,
         type: 2}
       propertyPath: m_GravityScale
-      value: 2.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 212097966634031858, guid: d79140d23a9811c47835812d50f7aa64,
         type: 2}
@@ -555,6 +555,24 @@ Prefab:
       propertyPath: m_SortingOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 4933602497363954, guid: d79140d23a9811c47835812d50f7aa64, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -3.3760376
+      objectReference: {fileID: 0}
+    - target: {fileID: 95526425523626092, guid: d79140d23a9811c47835812d50f7aa64,
+        type: 2}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4933602497363954, guid: d79140d23a9811c47835812d50f7aa64, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.000003357686
+      objectReference: {fileID: 0}
+    - target: {fileID: 114588892607702058, guid: d79140d23a9811c47835812d50f7aa64,
+        type: 2}
+      propertyPath: boat
+      value: 
+      objectReference: {fileID: 671076615}
     m_RemovedComponents:
     - {fileID: 61931045009386750, guid: d79140d23a9811c47835812d50f7aa64, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: d79140d23a9811c47835812d50f7aa64, type: 2}
@@ -649,9 +667,14 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.000008675533, y: -0.22436386}
-  m_Size: {x: 1.7125959, y: 0.7778068}
+  m_Offset: {x: -0.012577323, y: -0.22436386}
+  m_Size: {x: 1.8552418, y: 0.77780885}
   m_Direction: 1
+--- !u!4 &671076615 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4933602497363954, guid: d79140d23a9811c47835812d50f7aa64,
+    type: 2}
+  m_PrefabInternal: {fileID: 503660835}
 --- !u!1 &735795539
 GameObject:
   m_ObjectHideFlags: 0
@@ -871,6 +894,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65283793ab6ab62498a3e59ab56b2708, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  splashScreen: {fileID: 0}
+  fishLocal: {fileID: 0}
+  anim: {fileID: 0}
+  splash: {fileID: 0}
 --- !u!4 &1068134957
 Transform:
   m_ObjectHideFlags: 0
@@ -893,6 +920,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1138654512}
   - component: {fileID: 1138654513}
+  - component: {fileID: 1138654514}
   m_Layer: 0
   m_Name: Water
   m_TagString: Untagged
@@ -928,7 +956,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 15a89cf59e367464abcd0129f3d17c2f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -958,6 +986,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1138654514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1138654511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8829f965957cc3046a2feba774f2db42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: {x: 0.025, y: 0}
 --- !u!1 &1272252396
 GameObject:
   m_ObjectHideFlags: 0

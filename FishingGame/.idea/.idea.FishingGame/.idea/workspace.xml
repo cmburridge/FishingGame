@@ -14,6 +14,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Hud.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Wander.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Water2D Surface/shaders/Water2D Surface.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Casting.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Aim.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Triggers.cs" root0="FORCE_HIGHLIGHTING" />
@@ -36,7 +37,6 @@
         <option value="$PROJECT_DIR$/Assets/Destroy.cs" />
         <option value="$PROJECT_DIR$/Assets/ScoreSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/IgnoreCol.cs" />
-        <option value="$PROJECT_DIR$/Assets/Casting.cs" />
         <option value="$PROJECT_DIR$/Assets/RandomSpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/RopeScript.cs" />
         <option value="$PROJECT_DIR$/Assets/LevelGeneration.cs" />
@@ -44,6 +44,7 @@
         <option value="$PROJECT_DIR$/Assets/Aim.cs" />
         <option value="$PROJECT_DIR$/Assets/RandomFish.cs" />
         <option value="$PROJECT_DIR$/Assets/ReturnButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Casting.cs" />
         <option value="$PROJECT_DIR$/Assets/Triggers.cs" />
       </list>
     </option>
@@ -107,6 +108,7 @@
       <workItem from="1586235832740" duration="171000" />
       <workItem from="1586321887860" duration="3242000" />
       <workItem from="1586374761028" duration="876000" />
+      <workItem from="1586386850830" duration="3988000" />
     </task>
     <servers />
   </component>

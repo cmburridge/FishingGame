@@ -7,6 +7,10 @@ using Object = UnityEngine.Object;
 using UnityEngine.SceneManagement;
 public class Triggers : MonoBehaviour
 {
+	public GameObject splashScreen;
+	public Transform fishLocal;
+	public Transform anim;
+	public GameObject splash;
 	private void Update()
 	{
 		if (Input.GetKeyDown(KeyCode.Escape))
@@ -14,13 +18,21 @@ public class Triggers : MonoBehaviour
 			SceneManager.LoadScene(0);
 		}
 	}
-
-	private void OnTriggerEnter2D(Collider2D lure)
-	{
-		if (lure.tag == "Player")
+	IEnumerator CatchingCoroutine()
 		{
+			Instantiate(splashScreen);
+			yield return new WaitForSeconds(1f);
 			SceneManager.LoadScene(2);
 		}
+	void OnTriggerEnter2D(Collider2D lure)
+	{
+		
+		if (lure.tag == "Player")
+		{
+			Instantiate(splash, fishLocal.position, anim.rotation);
+			StartCoroutine(CatchingCoroutine());
+		}
+		
 	}
 
 
