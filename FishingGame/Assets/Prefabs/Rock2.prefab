@@ -20,7 +20,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450948820186912}
   - component: {fileID: 212480120918170310}
-  - component: {fileID: 114437069826384694}
   - component: {fileID: 60268652094807476}
   - component: {fileID: 114253331991825772}
   m_Layer: 0
@@ -105,21 +104,6 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: f4c3fa9cf13d86b419834fe36119d6ed, type: 3}
   spriteLayer: Default
   spriteLayerOrder: -5
---- !u!114 &114437069826384694
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1405825955613982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65283793ab6ab62498a3e59ab56b2708, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  splashScreen: {fileID: 0}
-  fishLocal: {fileID: 0}
-  anim: {fileID: 0}
-  splash: {fileID: 0}
 --- !u!212 &212480120918170310
 SpriteRenderer:
   m_ObjectHideFlags: 1

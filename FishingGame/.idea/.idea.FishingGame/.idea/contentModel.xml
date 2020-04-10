@@ -16,10 +16,7 @@
         <e p="Bag.cs" t="Include" />
         <e p="Casting.cs" t="Include" />
         <e p="Destroy.cs" t="Include" />
-        <e p="Detection.cs" t="Include" />
-        <e p="FollowBehavior.cs" t="Include" />
         <e p="Hud.cs" t="Include" />
-        <e p="IdleBehavior.cs" t="Include" />
         <e p="JMO Assets" t="Include">
           <e p="Cartoon FX" t="Include">
             <e p="CartoonFX Free.txt" t="Include" />
@@ -55,7 +52,6 @@
         <e p="Movement.cs" t="Include" />
         <e p="RandomFish.cs" t="Include" />
         <e p="ReturnButton.cs" t="Include" />
-        <e p="ScoreSystem.cs" t="Include" />
         <e p="Triggers.cs" t="Include" />
         <e p="Wander.cs" t="Include" />
         <e p="Water2D Surface" t="Include">

@@ -11,22 +11,37 @@ public class Triggers : MonoBehaviour
 	public Transform fishLocal;
 	public Transform anim;
 	public GameObject splash;
+	public GameObject noSoundSplash;
+	
+	private float nextActionTime = 0.0f;
+	public float period = 0.1f;
 	private void Update()
 	{
 		if (Input.GetKeyDown(KeyCode.Escape))
 		{
 			SceneManager.LoadScene(0);
 		}
+		StartCoroutine(splashArround());
 	}
 	IEnumerator CatchingCoroutine()
+	{
+		Instantiate(splashScreen);
+		yield return new WaitForSeconds(1.5f);
+		SceneManager.LoadScene(2);
+	}
+
+	IEnumerator splashArround()
+	{
+		yield return new WaitForSeconds(1f);
+		if (Time.time > nextActionTime)
 		{
-			Instantiate(splashScreen);
-			yield return new WaitForSeconds(1.5f);
-			SceneManager.LoadScene(2);
+			nextActionTime += period;
+			Instantiate(noSoundSplash, fishLocal.position, anim.rotation);
 		}
+	}
+
 	void OnTriggerEnter2D(Collider2D lure)
 	{
-		
 		if (lure.tag == "Player")
 		{
 			Instantiate(splash, fishLocal.position, anim.rotation);
@@ -35,4 +50,5 @@ public class Triggers : MonoBehaviour
 		
 	}
 	
+
 }
