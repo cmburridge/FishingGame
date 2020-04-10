@@ -32,7 +32,7 @@ public class Aim : MonoBehaviour {
 
 	private void FixedUpdate()
 	{
-		rod.MovePosition(rod.position + move * moveSpeed * Time.fixedDeltaTime);
+		rod.MovePosition(rod.position + Time.fixedDeltaTime * moveSpeed * move);
 		Vector2 lookDir = mousePos - rod.position;
 		float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg -45f;
 		rod.rotation = angle;

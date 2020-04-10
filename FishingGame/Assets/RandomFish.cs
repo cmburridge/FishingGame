@@ -5,12 +5,11 @@ using Random = System.Random;
 
 public class RandomFish : MonoBehaviour
 {
-
+	public List<GameObject> caughtFish;
 	public List<GameObject> fish;
 	public int[] table = { 40, 30, 15, 10, 5};
 
-	
-	
+
 	public int total;
 	public int randomNumber;
 	private void Start () 
@@ -27,6 +26,7 @@ public class RandomFish : MonoBehaviour
 			if (randomNumber <= table[i])
 			{
 				Instantiate(fish[i]);
+				caughtFish.Add(fish[i]);
 				return;
 			}
 			else

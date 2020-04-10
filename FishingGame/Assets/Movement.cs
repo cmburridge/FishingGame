@@ -16,6 +16,10 @@ public class Movement : MonoBehaviour
  
     private void Update()
     {
+        if (Input.GetButtonDown("Fire1"))
+        {
+            rb.constraints = RigidbodyConstraints2D.FreezeAll;
+        }
         rb.constraints = RigidbodyConstraints2D.FreezeRotation;
         
         movement.x = Input.GetAxisRaw("Horizontal"); 
@@ -25,11 +29,6 @@ public class Movement : MonoBehaviour
         animator.SetFloat("Vertical", movement.y); 
         animator.SetFloat("Speed", movement.sqrMagnitude); 
         
-        if (Input.GetButtonDown("Fire1"))
-        {
-            rb.constraints = RigidbodyConstraints2D.FreezeAll;
-        }
-
         if (Input.GetButtonDown("Fire2"))
         {
             rb.constraints = 0;

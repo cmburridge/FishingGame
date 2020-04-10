@@ -20,5 +20,14 @@ public class Destroy : MonoBehaviour
 		Destroy(this.gameObject);
 	}
 	
+	void OnTriggerEnter2D(Collider2D lure)
+	{
+		if (lure.tag == "Finish")
+		{
+			Destruction();
+		}
+		
+	}
+	
 	
 }

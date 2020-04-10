@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 069f0c592dba99444af69bdcbebd3c4f, type: 3}
+  m_Name: Bag
+  m_EditorClassIdentifier: 
+  fishCaught:
+  - {fileID: 1191432131398260, guid: 8effd885d26b53e47b30c475c5aa76fd, type: 2}

@@ -206,13 +206,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7bb50294238dd14da74a0fa97341f96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  caughtFish: []
   fish:
+  - {fileID: 1493696272415768, guid: fb11267faecaddd4187bfc2c0b9fde8e, type: 2}
+  - {fileID: 1072801857609098, guid: a6505ec8e1f0e1441b5fcfd4b5b6ad18, type: 2}
+  - {fileID: 1249536591695866, guid: 5401c7e688a02824e9197da4f896eca8, type: 2}
+  - {fileID: 1056002165293642, guid: cefeaf1eb44a5714fb11268aa89cacc2, type: 2}
   - {fileID: 1262601651722308, guid: e9c36651f668d6d41a72fc7ebd437282, type: 2}
-  - {fileID: 1038629739458822, guid: b2ac4f605b9cff74b9397a152b8fd43b, type: 2}
-  - {fileID: 1611150861529096, guid: f6e047f678bbed14e959c4a2dfa78d5d, type: 2}
-  - {fileID: 1426170648620538, guid: 0d5598b4f6eecb248bad6a33929c9dda, type: 2}
-  - {fileID: 1306077909411990, guid: d9f476f7b6b00ed4ca6a5170a19fab27, type: 2}
-  table: 1e00000019000000140000000f0000000a000000
+  - {fileID: 1191432131398260, guid: 8effd885d26b53e47b30c475c5aa76fd, type: 2}
+  table: 1e00000019000000140000000f0000000a00000005000000
   total: 0
   randomNumber: 0
 --- !u!1 &426355327
