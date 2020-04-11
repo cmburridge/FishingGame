@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 674ed7027cea3954ea502bf5fa2820fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localPosition: {x: -0.75, y: -0.05, z: 0}
+  localPosition: {x: -0.48, y: -0.05, z: 0}
   localRotation: {x: 0, y: 0, z: -180}
   sprite: {fileID: 21300000, guid: dd9b93915f8624c498a7e3471bd0e3f4, type: 3}
   spriteLayer: Default

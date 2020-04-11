@@ -52,6 +52,7 @@
         <option value="$PROJECT_DIR$/Assets/Destroy.cs" />
         <option value="$PROJECT_DIR$/Assets/Aim.cs" />
         <option value="$PROJECT_DIR$/Assets/Triggers.cs" />
+        <option value="$PROJECT_DIR$/Assets/EventSystem.cs" />
       </list>
     </option>
   </component>
@@ -118,6 +119,7 @@
       <workItem from="1586461896290" duration="1544000" />
       <workItem from="1586476247343" duration="6420000" />
       <workItem from="1586545427833" duration="4922000" />
+      <workItem from="1586625828045" duration="2206000" />
     </task>
     <servers />
   </component>

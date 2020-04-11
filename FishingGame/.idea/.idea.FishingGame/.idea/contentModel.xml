@@ -16,6 +16,7 @@
         <e p="Bag.cs" t="Include" />
         <e p="Casting.cs" t="Include" />
         <e p="Destroy.cs" t="Include" />
+        <e p="EventSystem.cs" t="Include" />
         <e p="Hud.cs" t="Include" />
         <e p="JMO Assets" t="Include">
           <e p="Cartoon FX" t="Include">

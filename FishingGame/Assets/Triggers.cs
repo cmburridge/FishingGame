@@ -12,6 +12,7 @@ public class Triggers : MonoBehaviour
 	public Transform anim;
 	public GameObject splash;
 	public GameObject noSoundSplash;
+	public GameObject menu;
 	
 	private float nextActionTime = 0.0f;
 	public float period = 0.1f;
